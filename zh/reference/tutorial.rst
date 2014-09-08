@@ -1,19 +1,19 @@
 教程 1：让我们通过例子来学习（Tutorial 1: Let's learn by example）
 ==================================
 通过这第一个教程，我们将引导您从基础完成创建简单的带有注册表单的应用。
-我们也将解释框架行为的基本方面。如果您对Phalcon的自动代码生成工具有兴趣，
+我们也将解释框架的基本行为。如果您对Phalcon的自动代码生成工具有兴趣，
 您可以查看 :doc:`developer tools <tools>`。
 
 确认安装（Checking your installation）
 --------------------------
-We'll assume you have Phalcon installed already. Check your phpinfo() output for a section referencing "Phalcon" or execute the
+我们假设你已经安装了Phalcon。 Check your phpinfo() output for a section referencing "Phalcon" or execute the
 code snippet below:
 
 .. code-block:: php
 
     <?php print_r(get_loaded_extensions()); ?>
 
-The Phalcon extension should appear as part of the output:
+Phalcon扩展将会做为输出的一部分出现：
 
 .. code-block:: php
 
